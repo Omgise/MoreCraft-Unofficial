@@ -4,13 +4,14 @@
     {
       "modid": "${modId}",
       "name": "${modName}",
-      "description": "An example mod for Minecraft 1.7.10 with Forge focused on a stable setup.",
+      "description": "The ultimate mod that expands a lot on Minecraft without out-of-place stuff. Adds many blocks, tools, armour, foods, and crafting recipes. Also makes the Nether a bit more interesting.",
       "version": "${modVersion}",
       "mcversion": "${minecraftVersion}",
-      "url": "https://github.com/tesseract4d",
+      "url": "https://github.com/Omgise/MoreCraftUnofficial",
       "updateUrl": "",
       "authorList": [
-        "Tesseract"
+        "Kitteh6660"
+        "Omgise"
       ],
       "credits": "",
       "logoFile": "",
