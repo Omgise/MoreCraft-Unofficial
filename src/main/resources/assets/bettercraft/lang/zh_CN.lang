@@ -1,7 +1,7 @@
 tile.blockBone.name=骨块
 tile.blockFlesh.name=腐肉块
 tile.stairStone.name=石阶
-tile.gateNetherBrick.name=下界砖栅栏门
+tile.gateNetherBrick.name=地狱砖栅栏门
 tile.oreRuby.name=红宝石矿石
 tile.blockRuby.name=红宝石块
 tile.enderBrick.name=末影砖
@@ -43,7 +43,7 @@ item.eggCooked.name=煎蛋
  
 item.witherBone.name=凋零骨头
 item.brickEnder.name=末影砖
-item.doorNether.name=下界砖门
+item.doorNether.name=地狱砖门
 item.doorGlass.name=玻璃门
 item.doorNetherwood.name=下界木门
 item.doorBone.name=骨门
