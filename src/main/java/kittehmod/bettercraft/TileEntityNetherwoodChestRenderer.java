@@ -26,12 +26,11 @@ public class TileEntityNetherwoodChestRenderer extends TileEntitySpecialRenderer
 	private ModelChest modelSingle = new ModelChest();
 	private ModelChest modelDouble = new ModelLargeChest();
 
-	private static final String __OBFID = "CL_00000965";
 	public TileEntityNetherwoodChestRenderer()
 	{
 
 	}
-	
+
 	public void renderTileEntityAt(TileEntityNetherwoodChest p_147502_1_, double p_147502_2_, double p_147502_4_, double p_147502_6_, float p_147502_8_)
 	{
 		int i;

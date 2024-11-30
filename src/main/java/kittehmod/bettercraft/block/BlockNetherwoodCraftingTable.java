@@ -26,9 +26,8 @@ public class BlockNetherwoodCraftingTable extends BlockWorkbench
     public IIcon textureFront;
     @SideOnly(Side.CLIENT)
     public IIcon textureSide;
-    private static final String __OBFID = "CL_00000221";
-    
-	public BlockNetherwoodCraftingTable() 
+
+	public BlockNetherwoodCraftingTable()
 	{
 		super();
 		this.setCreativeTab(CreativeTabs.tabDecorations);
@@ -41,7 +40,7 @@ public class BlockNetherwoodCraftingTable extends BlockWorkbench
         this.textureFront = par1IconRegister.registerIcon(this.getTextureName() + "_front");
         this.textureSide = par1IconRegister.registerIcon(this.getTextureName() + "_side");
     }
-    
+
     @SideOnly(Side.CLIENT)
     public IIcon getIcon(int blockSide, int p_149691_2_)
     {
@@ -58,7 +57,7 @@ public class BlockNetherwoodCraftingTable extends BlockWorkbench
 	    	case 5:
 	    		return this.textureFront;
 	    	default:
-	    		return BetterCraft.NetherPlanks.getBlockTextureFromSide(blockSide);	    		
+	    		return BetterCraft.NetherPlanks.getBlockTextureFromSide(blockSide);
     	}
     }
     /**
@@ -78,7 +77,7 @@ public class BlockNetherwoodCraftingTable extends BlockWorkbench
             return true;
         }
     }
-    
+
     @Override
     public boolean isFlammable(IBlockAccess world, int x, int y, int z, ForgeDirection face)
     {
